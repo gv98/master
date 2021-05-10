@@ -1,0 +1,7 @@
+
+<form>
+    <label>Send data from child</label>
+    <input type="text" name="pname" #cinput>
+    <button type="button" class="btn btn-primary btn-m m-l2" (click)=sendData(cinput.value)>Send</button>
+</form>
+<div>Data recieved from parent : {{parentdata}}</div>
